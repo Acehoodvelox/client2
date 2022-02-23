@@ -1,0 +1,43 @@
+@keyframes hue {
+    from {
+        filter: hue-rotate(0);
+    }
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.hue-rotate {
+    animation-name: hue;
+    animation-duration: 1640ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+h2{
+    font-family: Montserrat, sans-serif;
+}
+
+/* a:hover {
+    transform: scale(1.2);
+    transition: transform 300ms ease-in-out;
+} */
+
+/* * {
+    scroll-behavior: smooth;
+} */
+
+.disabled {
+    cursor:not-allowed;
+    opacity: 50%;
+}
+.disabled:hover {
+    transform: none;
+}
+
+.winners {
+    background-color: #dededede;
+    color: #232323;
+    padding: 16px;
+    border-radius: 32px;
+}
